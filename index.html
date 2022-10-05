@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consumo de API</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400&family=Concert+One&family=DM+Sans:wght@400;500;700&family=Indie+Flower&family=Inter:wght@300;500&family=Oswald:wght@200;300;600&family=Roboto+Mono:wght@100&family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Fotos de perros</h1>
+    <span id="error"></span>
+    <section id="randomDogs" class="container-random">
+      <h2>Fotos aleatoreas</h2>
+      <div class="container-btn-recharge">
+        <button class="btn-recharge" onclick="loadRandomImg()">Recargar</button>
+      </div>
+      <div class="container-random-img">
+        <article>
+          <img id="img1" class="img-random" alt="Foto de perros" />
+          <button id="btn1">Guardar en favoritos</button>
+        </article>
+        <article>
+          <img id="img2" class="img-random" alt="Foto de perros" />
+          <button id="btn2">Guardar en favoritos</button>
+        </article>
+        <article>
+          <img id="img3" class="img-random" alt="Foto de perros" />
+          <button id="btn3">Guardar en favoritos</button>
+        </article>
+      </div>
+    </section>
+    <h3>Fotos favoritas</h3>
+    <section id="favoritesDogs" class="container-favorites">
+      <h2>Seccion de Favoritos</h2>
+      <div class="container-favorites-img">
+        <article>
+          <img id="img1" class="img-favorite" alt="Foto de perros" />
+          <button class="btn-take">Quitar de favoritos</button>
+        </article>
+      </div>
+    </section>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

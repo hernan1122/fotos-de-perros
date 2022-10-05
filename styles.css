@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 52.5%;
+  font-family: "Concert One", cursive;
+}
+body {
+  background-color: #1e2326;
+}
+h1 {
+  font-size: 5rem;
+  background-color: #1cb698;
+  color: #1e2326;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-size: 4rem;
+  color: #1cb698;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-random {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-random .container-btn-recharge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-random .btn-recharge {
+  font-size: 2.8rem;
+  font-family: "Concert One", cursive;
+  background-color: #1cb698;
+  color: #1e2326;
+  margin: 10px 0 40px 0;
+  width: 300px;
+  height: 60px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.container-random .container-random-img {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 30px;
+  place-content: center;
+}
+.container-random .container-random-img article {
+  display: flex;
+  flex-direction: column;
+}
+.container-random .container-random-img article .img-random {
+  margin-bottom: 2px;
+  width: 300px;
+  height: 300px;
+  border: 3px solid #1cb698;
+}
+.container-random .container-random-img article button {
+  font-size: 2.8rem;
+  font-family: "Concert One", cursive;
+  background-color: #1cb698;
+  color: #1e2326;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+h3 {
+  font-size: 4rem;
+  background-color: #1cb698;
+  color: #1e2326;
+  margin: 50px 0;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-favorites {
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 30px;
+  place-content: center;
+}
+.img-favorite {
+  width: 300px;
+  height: 300px;
+  border: 3px solid #1cb698;
+}
+.btn-take {
+  font-size: 2.8rem;
+  font-family: "Concert One", cursive;
+  background-color: #1cb698;
+  color: #1e2326;
+  width: 300px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
