@@ -62,7 +62,6 @@ h2 {
   flex-direction: column;
 }
 .container-random .container-random-img article .img-random {
-  margin-bottom: 2px;
   width: 300px;
   height: 300px;
   border: 3px solid #1cb698;
@@ -75,6 +74,9 @@ h2 {
   height: 50px;
   border: none;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 h3 {
   font-size: 4rem;
@@ -107,4 +109,7 @@ h3 {
   height: 50px;
   border: none;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
