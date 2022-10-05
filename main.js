@@ -54,7 +54,6 @@ async function loadFavouritesImg() {
 
       img.src = dog.image.url;
       img.width = 300;
-      img.height = 300;
       img.classList.add("img-favorite");
       btn.appendChild(btnText);
       btn.onclick = () => deleteFavouriteImg(dog.id);

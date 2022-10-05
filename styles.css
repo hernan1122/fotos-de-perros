@@ -63,7 +63,6 @@ h2 {
 }
 .container-random .container-random-img article .img-random {
   width: 300px;
-  height: 300px;
   border: 3px solid #1cb698;
 }
 .container-random .container-random-img article button {
@@ -97,7 +96,6 @@ h3 {
 }
 .img-favorite {
   width: 300px;
-  height: 300px;
   border: 3px solid #1cb698;
 }
 .btn-take {
